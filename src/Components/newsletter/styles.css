@@ -119,26 +119,10 @@
   .fieldGroup input:hover {
     box-shadow: 10px 10px 30px 0px #0000002e;
   }
-  
-  .fieldGroup button {
-    height: 75px;
-    width: 194px;
-    left: 751px;
-    top: 597px;
-    border-radius: 0px;
-    color: #fff;
-    width: 100%;
-    padding: 27px;
-    background-color: #ffcb47;
-    box-shadow: 10px 10px 30px 0px #ffcb474d;
-    border: 0;
-    /* border: 1px solid #ffa100; */
-  }
+
   
   @media (min-width: 920px) {
-      .fieldGroup button {
-          width: 30%;
-      }
+
       .fieldGroup input{
  
         width:80%

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&display=swap');
+
+.Ofertas{
+    text-align: center;
+    margin-top: 280px;
+}
+.Ofertas p{
+    font-family:'Montserrat', sans-serif;
+    font-size: 22px;
+    opacity: 0.5;
+}
+.Ofertas strong {
+    font-family: 'Elsie Swash Caps';
+    font-size: 82px;
+}
+
+.CardField{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
