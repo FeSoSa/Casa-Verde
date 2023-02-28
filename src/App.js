@@ -6,6 +6,7 @@ import req from "./req";
 import './App.css'
 import './Components/body/reset.css'
 import './Components/body/body.css'
+import Info from "./Components/info";
 
 function App() {
 
@@ -25,6 +26,9 @@ function App() {
     <div className="App">
       <Menu />
       <Newsletter />
+      <div className="Info">
+        <Info/>
+      </div>
       {PlantList.map((item, key) => (
         <Ofertas items={item} key={key}/>
       ))}

@@ -1,0 +1,40 @@
+.InfoConteiner{
+    display: flex;
+    background-color: #FFFF;
+    width: 995px;
+    height: 440px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.InfoOption{
+    
+    padding-left: 25px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.InfoOption p{
+    margin-top: 15px;
+    padding-left: 10px;
+}
+.LeafBackground{
+    height: 100%;
+}
+.InfoConteiner h6{
+    padding: 25px;
+}
+.InfoConteiner h6 p{
+    font-family:'Montserrat', sans-serif;
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 22px;
+}
+.InfoConteiner h6 strong{
+    font-family: 'Elsie Swash Caps';
+    opacity: 1;
+    font-size: 42px;
+}
+.YellowBall{
+    width: 52px;
+    height: 52px;
+}

@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:wght@900&display=swap');
-
+@media (max-width: 920px){
+    .Ofertas h5 strong{
+        font-size: 50px;
+    }
+}
 .Ofertas{
     text-align: center;
-    margin-top: 280px;
+    margin-top: 80px;
 }
 .Ofertas p{
     font-family:'Montserrat', sans-serif;

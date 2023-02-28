@@ -4,13 +4,13 @@ import './styles.css'
 const Card = (items) => {
     return(
         <div className="conteiner">
-            <img src={`/images/plants/${items.item.img}.png`} alt="Foto da Planta"/>
+            <img src={`/images/plants/${items.item.Img}.png`} alt="Foto da Planta"/>
             <div className="CardInfo">
                 <h6>
-                    {items.item.name}
+                    {items.item.Title}
                 </h6>
                 <p>
-                    R$ {items.item.preco}
+                    {items.item.Price}
                 </p>
                 <a href="/">
                     Comprar &rarr;

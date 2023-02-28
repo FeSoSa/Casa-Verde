@@ -1,1 +1,8 @@
-
+.Info{
+    margin-top: 271px;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 920px) {
+    .Info{margin-top: 50px;}
+}
