@@ -24,6 +24,7 @@ const Newsletter = () => {
         onSubmit: values => {
             const templatePrams = {
                 message: message,
+                ToEmail: formik.values.email
             }
             emailjs.send("service_aryvkwv","template_31v6d2a",templatePrams,"YPHGJeQ4tOVEGB8IS")
             .then((response) => {console.log(response.status,response.text)},
